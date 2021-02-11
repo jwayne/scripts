@@ -6,7 +6,7 @@ Currently only works on Mac
 What it does:
 - Removes the pesky time units from copied messages.
 - Reformats the copied text so it pastes properly into Notion (rather than single
-newlines and bullets being ignored). This is achieved simply by copying and pasting from 
+newlines and bullets being ignored).
 
 """
 import re
