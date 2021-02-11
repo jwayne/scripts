@@ -89,6 +89,7 @@ def clean_signal(msg):
     for line in msg.split('\n'):
         if is_date(line) and not last_was_date:
             last_was_date = True
+            cleaned_lines.append("")
         else:
             cleaned_lines.append(line)
             last_was_date = False
